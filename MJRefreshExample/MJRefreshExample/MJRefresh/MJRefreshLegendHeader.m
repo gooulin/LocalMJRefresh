@@ -44,7 +44,7 @@
     
     // 箭头
     CGFloat arrowX = (self.stateHidden && self.updatedTimeHidden) ? self.mj_w * 0.5 : (self.mj_w * 0.5);
-    self.arrowImage.center = CGPointMake(arrowX, self.mj_h * 0.65);
+    self.arrowImage.center = CGPointMake(arrowX, self.mj_h * 0.5);
     
     // 指示器
     self.activityView.center = self.arrowImage.center;
